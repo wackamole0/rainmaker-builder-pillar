@@ -18,6 +18,9 @@ dhcpd_subnet: 10.252.0.0
 dhcpd_netmask: 255.255.0.0
 dhcpd_routers: 10.252.0.254
 dhcpd_dns_nameservers: 10.252.0.2
+dhcpd_nogroup_pool_enabled: False
+dhcpd_nogroup_pool_start_range: 10.252.0.11
+dhcpd_nogroup_pool_end_range: 10.252.0.249
 dhcpd_example_pool_start_range: 10.252.1.1
 dhcpd_example_pool_end_range: 10.252.1.254
 
